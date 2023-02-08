@@ -62,4 +62,24 @@ public class Triangle {
         }
         System.out.println("Area del triangulo: "+ result);
     }
+    public void area(float a,float b, float c){
+        double result = 0;
+        if (b == 0 && c == 0){
+            double a2 = Math.pow(a, 2);
+            result = (Math.sqrt(3)/4)*a2;
+        }else if(b != 0 && c != 0 && a == 0){
+            result = b*c/2;
+        }
+        System.out.println("Area del triangulo: "+ result);
+    }
+    public void area(int a,int b, int c){
+        int result = 0;
+        if (b == 0 && c == 0){
+            int a2 = (int) Math.pow(a, 2);
+            result = (int) ((Math.sqrt(3)/4)*a2);
+        }else if(b != 0 && c != 0 && a == 0){
+            result = b*c/2;
+        }
+        System.out.println("Area del triangulo: "+ result);
+    }
 }

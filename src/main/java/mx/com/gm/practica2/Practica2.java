@@ -79,13 +79,13 @@ public class Practica2 {
         triangle2.perimetro(1, 2, 3.2f);
         System.out.println("--------------------------------------------------");
 
-        //Perimetro con diferentes valores int
-        triangle2.perimetro(1, 0, 0);
-        triangle2.perimetro(0, 5, 5);
+        //area con diferentes valores int
+        triangle2.area(5, 0, 0);
+        triangle2.area(0, 5, 5);
         System.out.println("--------------------------------------------------");
         
         //Perimetro con diferentes valores float
-        triangle2.perimetro(1.5f, 0, 0);
-        triangle2.perimetro(0, 5.2f, 5);
+        triangle2.area(1.5f, 0, 0);
+        triangle2.area(0, 5.2f, 5);
     }
 }
